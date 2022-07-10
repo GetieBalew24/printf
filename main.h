@@ -20,4 +20,8 @@ typedef struct format
 	int (*f)();
 } convert_match;
 
+
+int printf_string(va_list val);
+int printf_char(va_list val);
+int printf_37(void);
 #endif
