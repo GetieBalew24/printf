@@ -27,5 +27,7 @@ int printf_char(va_list val);
 int printf_37(void);
 int _strlen(char *str);
 int _strlenc(const char *str);
+int printf_dec(va_list arg);
+int printf_int(va_list arg);
 
 #endif
