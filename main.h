@@ -29,5 +29,5 @@ int _strlen(char *str);
 int _strlenc(const char *str);
 int printf_dec(va_list arg);
 int printf_int(va_list arg);
-
+int printf_bin(va_list val);
 #endif
