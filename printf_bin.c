@@ -1,6 +1,10 @@
 #include "main.h"
 
-/***/
+/**
+ * printf_bin - prints binery format
+ * @val: argument
+ * Return: the binery value
+ */
 
 int printf_bin(va_list val)
 {
