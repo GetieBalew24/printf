@@ -14,7 +14,11 @@ int _printf(const char *format, ...)
 		{"%%", printf_37},
 		{"%i", printf_int},
 		{"%d", printf_dec},
-		{"%b", printf_bin}
+		{"%b", printf_bin},
+		{"%u", print_unsigned},
+		{"%o", print_octal},
+		{"%x", print_x},
+		{"%X", print_X}
 	};
 
 	va_list arg;
