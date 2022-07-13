@@ -30,4 +30,7 @@ int _strlenc(const char *str);
 int printf_dec(va_list arg);
 int printf_int(va_list arg);
 int printf_bin(va_list val);
+int print_unsigned(va_list u);
+int print_octal(va_list o);
+int print_hex(unsigned int n, unsigned int c); 
 #endif
