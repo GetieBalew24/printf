@@ -1,5 +1,5 @@
 #include "main.h"
-
+#include <stdlib.h>
 /**
  * print_octal-prints an octal number.
  * @o: unsigned to be converted
